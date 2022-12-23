@@ -1,0 +1,63 @@
+#background{
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-background-color: #FAF9FF;
+}
+#controller{
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-background-color: transparent;
+}
+#sideMenu{
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-background-color: #FFFFFF;
+}
+#banner{
+    -fx-background-image: url(../images/banner.jpg);
+    -fx-background-size: 660px, 233px;
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+
+}
+
+#function{
+    -fx-background-color: transparent;
+}
+
+#dashboard{
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+    -fx-background-color: #FFFFFF;
+}
+#functionBlock{
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+    -fx-background-color: #FFFFFF;
+}
+#functionBlock:hover{
+    -fx-background-color: #7D7D7D;
+    -fx-opacity: 0.2;
+}
+#closeButton{
+    -fx-background-radius: 0 16 0 0;
+    -fx-background-color: transparent;
+}
+#closeButton:hover{
+    -fx-background-color: #7D7D7D;
+    -fx-opacity: 0.2;
+}
+#minimizeButton{
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: transparent;
+}
+#minimizeButton:hover{
+    -fx-background-color: #7D7D7D;
+    -fx-opacity: 0.2;
+}
+#navigation{
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+    -fx-background-color: #FAF9FF;
+}
+

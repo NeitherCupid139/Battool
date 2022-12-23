@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@CSS/menu.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="indi.compass.battool.HelloController">
+   <children>
+      <Button id="sideMenu" layoutX="17.0" layoutY="24.0" mnemonicParsing="false" prefHeight="556.0" prefWidth="150.0" stylesheets="@CSS/menu.css" />
+      <Button id="banner" layoutX="197.0" layoutY="69.0" mnemonicParsing="false" prefHeight="233.0" prefWidth="660.0" stylesheets="@CSS/menu.css" />
+      <AnchorPane id="controller" prefHeight="0.0" prefWidth="900.0" stylesheets="@CSS/menu.css">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="122.0" layoutX="778.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/controller.jpg" />
+               </image>
+            </ImageView>
+            <Button id="minimizeButton" fx:id="minimizeButton" layoutX="780.0" mnemonicParsing="false" onAction="#minimize" prefHeight="32.0" prefWidth="40.0" stylesheets="@CSS/menu.css" />
+            <Button id="minimizeButton" fx:id="maximizeButton" layoutX="820.0" mnemonicParsing="false" onAction="#maximize" prefHeight="32.0" prefWidth="40.0" stylesheets="@CSS/menu.css" />
+            <Button id="closeButton" fx:id="closeButton" layoutX="860.0" mnemonicParsing="false" onAction="#close" prefHeight="32.0" prefWidth="40.0" stylesheets="@CSS/menu.css" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="197.0" layoutY="330.0" prefHeight="255.0" prefWidth="660.0">
+         <children>
+            <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/sercure.jpg" />
+               </image>
+            </ImageView>
+            <Button id="dashboard" mnemonicParsing="false" prefHeight="117.0" prefWidth="200.0" stylesheets="@CSS/menu.css" />
+            <Text fill="#9aa2ac" layoutX="-197.0" layoutY="-332.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(●'◡'●)" x="221.0" y="359.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="message" fill="#27282b" layoutX="-212.0" layoutY="-330.0" lineSpacing="1.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="181.33335876464844" x="221.0" y="393.0">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="20.0" />
+               </font>
+            </Text>
+            <Button id="dashboard" layoutX="230.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="200.0" stylesheets="@CSS/menu.css" />
+            <Text fx:id="city" fill="#9aa2ac" layoutX="-190.0" layoutY="-321.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" x="451.0" y="359.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="temperature" fill="#27282b" layoutX="40.0" layoutY="-300.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="91.46881103515625" x="221.0" y="393.0">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="32.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="353.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/weather.png" />
+               </image>
+            </ImageView>
+            <Button id="dashboard" layoutX="460.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="200.0" stylesheets="@CSS/menu.css" />
+            <Text fx:id="month" fill="#9aa2ac" layoutX="-191.0" layoutY="-321.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" x="681.0" y="359.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="day" fill="#27282b" layoutX="256.0" layoutY="-300.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="105.0" x="221.0" y="393.0">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="32.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="582.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/canlender.png" />
+               </image>
+            </ImageView>
+            <Button id="functionBlock" fx:id="secureButton" layoutY="132.0" mnemonicParsing="false" onAction="#secure" prefHeight="117.0" prefWidth="200.0" stylesheets="@CSS/menu.css" />
+            <Text fill="#9aa2ac" layoutX="-189.0" layoutY="-332.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="杀毒" x="221.0" y="497.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="118.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/sercure.png" />
+               </image>
+            </ImageView>
+            <Button id="functionBlock" fx:id="cleanButton" layoutX="230.0" layoutY="132.0" mnemonicParsing="false" onAction="#clean" prefHeight="117.0" prefWidth="200.0" stylesheets="@CSS/menu.css" />
+            <Text fill="#9aa2ac" layoutX="-190.0" layoutY="-332.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="清理垃圾" x="451.0" y="497.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="353.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/clean.png" />
+               </image>
+            </ImageView>
+            <Button id="functionBlock" fx:id="optimizeButton" layoutX="460.0" layoutY="132.0" mnemonicParsing="false" onAction="#optimize" prefHeight="117.0" prefWidth="200.0" stylesheets="@CSS/menu.css" />
+            <Text fill="#9aa2ac" layoutX="269.0" layoutY="-204.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="启动优化" x="221.0" y="369.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="582.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/memory.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button id="navigation" layoutX="32.0" layoutY="160.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="119.0" stylesheets="@CSS/menu.css" text="首页">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="setting" fitHeight="24.0" fitWidth="24.0" layoutX="32.0" layoutY="549.0" onMouseClicked="#setting" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/setting.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

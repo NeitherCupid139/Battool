@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" stylesheets="@CSS/menu.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="indi.compass.battool.HelloController">
+   <children>
+      <Text layoutX="150.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="作者 强风吹拂" wrappingWidth="117.33329772949219">
+         <font>
+            <Font name="Microsoft JhengHei" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="90.0" fitWidth="67.0" layoutX="59.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/E612DA2F21FA8068B92D1334F3E45849.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="101.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="当前版本：0.0.2（EAP）">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="73.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="（本项目已经转向Electron）" wrappingWidth="197.57366180419922">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="150.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compass Studio" wrappingWidth="98.24024200439453">
+         <font>
+            <Font name="Impact" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#e97171" layoutX="58.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="（JavaFX版本已不再进行维护）" wrappingWidth="227.57372283935547">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
